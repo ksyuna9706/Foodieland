@@ -1,0 +1,38 @@
+.header{
+color: rgb(60, 12, 12);
+    padding: 20px;
+}
+.header .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    font-style:oblique;
+    color: black;
+}
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+.right{
+    text-align: right;
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-between;
+}
+.right ul{
+    list-style: none;
+    display: flex;
+    margin-left: 277px;
+    margin-right: 254px;
+}
+.right a{
+    color: black;
+    margin-right: 50px;
+    text-decoration: none;
+
+}

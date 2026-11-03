@@ -2,5 +2,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: column;
+    margin: 0 auto;
     
+}
+.cL{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.cI{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+ 
 }

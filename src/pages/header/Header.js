@@ -10,9 +10,8 @@ function Header() {
             <div className="logo"><Link to="/">Foodieland</Link></div>
             <div className="right">
                 <ul>
-                    <li><Link to="/main">Home</Link></li>
-                    <li><Link to="/recipes">Recipes</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
+                    
+                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/contacts">Contacts</Link></li>
                 </ul>

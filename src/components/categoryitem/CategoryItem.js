@@ -10,7 +10,8 @@ function CategoryItem({
            
             <img src={strCategoryThumb} alt={strCategory} />
             <h2>{strCategory}</h2>
-            <p>{strCategoryDescription.slice(0,80)}...</p>
+            
+            {/* <p>{strCategoryDescription.slice(0,80)}...</p> */}
             <div className="card-action">
                 <Link to={`/category/${strCategory}`}>Watch Category</Link>
                 </div>

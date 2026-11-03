@@ -24,6 +24,7 @@ import { useState, useEffect } from "react";
 import { getAllCategories } from "../../api";
 import Preloader from "../../components/preloader/Preloader";
 import CategoryList from "../../components/categoryList/CategoryList";
+import Main from "../main/Main"
 
 function Home() {
     const [catalog, setCatalog] = useState([]);
@@ -40,9 +41,9 @@ function Home() {
     return (
 
         <div className="wrap">
-             
+             <Main/>
             {
-                !catalog.length ? <Preloader /> : <CategoryList catalog={catalog} />
+                !catalog.length ? <Preloader />  :<CategoryList catalog={catalog} /> 
             }
         </div>
     )

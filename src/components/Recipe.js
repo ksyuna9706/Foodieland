@@ -4,6 +4,8 @@ import "./Recipe.css";
 import { getMealById } from "../api";
 import Preloader from "./preloader/Preloader";
 import { useNavigate } from "react-router-dom";
+
+
 function Recipe() {
     const { id } = useParams();
     useEffect(() => {
@@ -20,7 +22,7 @@ function Recipe() {
             <button className="btn" onClick={goBack}>Go Back</button>
 
             {
-                !recipe.idMeal ? <Preloader /> : (
+                !recipe.idMeal ? <Preloader />: (
                     <div className="recipe">
                         <img src={recipe.strMealThumb} alt={recipe.strMeal} />
                         <h1>{recipe.strMeal}</h1>

@@ -1,18 +1,30 @@
 .card{
-    flex-basis: 300px;
+    flex-basis: 400px;
     box-shadow: 0 0 6px 2px silver;
     margin: 20px;
     box-sizing: border-box;
     padding: 20px 20px 40px;
-    border-radius: 10px;
+    border-radius: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: linear-gradient(45deg, #dce8eb,#fff);
+    
+}
+
+.card h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .card img{
-    width: 300px;
+    width: 368px;
+    filter: contrast(1);
+    border: 2px solid silver;
+    border-radius: 20px;
 }
 
 
@@ -22,11 +34,21 @@
 }
 
 .card-action a{
-    background: #ff7700;
+    background: #a1aab0;
     color: white;
     padding: 10px 20px 12px;
     border-radius: 6px;
     text-decoration: none;
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    margin-top: 10px;
+
     
+}
+
+.card-action a:hover{
+    background: #fff;
+    color: #a1aab0;
+    border:2px solid black;
 }

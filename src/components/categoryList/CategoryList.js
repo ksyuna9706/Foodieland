@@ -3,8 +3,12 @@ import "./CategoryList.css";
 
 function CategoryList({catalog=[]}){
     return(
-        <div className="list">
-{
+        <div className="list wrap">
+          <div className="cL"> 
+            <h1>Categories</h1>
+            </div> 
+            <div className="cI">
+                {
     catalog.map(el=>(
         
             <CategoryItem key={el.idCategory}{...el}/>
@@ -12,6 +16,9 @@ function CategoryList({catalog=[]}){
 
    
 }
+            </div>
+            
+
         </div>
     )
 }

@@ -23,12 +23,11 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About text={text} />} />
           <Route path="contacts" element={<Contacts />} />
-
-      
-        
-      
+       
         <Route path="category/:name" element={<Category />} />
         <Route path="meal/:id" element={<Recipe />} />
+        {/* <Route path="recipes" element={<Recipe />} /> */}
+      
         <Route path="*" element={<NotFound />} />
 </Route>
       </Routes>

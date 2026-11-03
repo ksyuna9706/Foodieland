@@ -1,0 +1,5 @@
+.blogAbout {
+    display: flex;
+    background: linear-gradient(45deg, #fff, #dce8eb);
+    border-radius: 30px;
+}

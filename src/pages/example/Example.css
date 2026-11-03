@@ -1,0 +1,42 @@
+.example{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.example h1{
+    color: rgba(0, 0, 0, 1);
+font-family: "Inter";
+font-style: Semi Bold;
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: -4%;
+
+}
+
+.example p{
+    color: rgba(0, 0, 0, 0.6);
+
+font-family: "Inter";
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.blockExample{
+    width: 400px;
+    margin: 20px;
+}
+.recipeExapmle{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.health{
+    background: url("./Mask\ Group.webp");
+}

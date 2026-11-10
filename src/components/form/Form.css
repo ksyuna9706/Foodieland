@@ -1,0 +1,63 @@
+.form{
+    
+    background: url("./Mask\ Group\ \(2\).webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    /* height: 442px; */
+    padding: 80px 347px 80px 345px ;
+    margin-top: 160px;
+  
+}
+.form h1{
+    color: rgba(0, 0, 0, 1);
+
+font-family: "Inter";
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: -4%;
+margin: 0;
+margin-right: 10px;
+text-align: left;
+
+}
+
+.form p{
+    color: rgba(0, 0, 0, 0.6);
+
+font-family: "Inter";
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+width: 620px;
+margin-bottom: 64px;
+}
+
+.form input{
+border-radius: 24px;
+background: rgba(255, 255, 255, 1);
+ box-sizing: border-box;
+/* Rectangle 18 */
+width: 480px;
+height: 80px;
+
+}
+.form1{
+  position: relative;
+}
+
+.form button{
+    position: absolute;
+    border-radius: 16px;
+background: rgba(0, 0, 0, 1);
+
+padding: 21px 46px 22px 47px;
+color: aliceblue;
+text-align: center;
+top: 10px;
+left: 310px;
+
+}

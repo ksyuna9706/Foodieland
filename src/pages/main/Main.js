@@ -2,6 +2,7 @@ import "./Main.css";
 import timer from './Timer.webp';
 import kn from './ForkKnife.webp';
 import chicken from "./baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.webp";
+import john from './Ellipse 2.webp'
 
 function Main(){
     return(
@@ -15,8 +16,12 @@ function Main(){
        </div>
        
        <div className="person">
-        <h3>John Smith</h3>
-        <p>15 March 2026</p>
+        <img src={john} alt="" />
+        <div className="infoJohn">
+         <h3>John Smith</h3>
+        <p>15 March 2026</p>   
+        </div>
+        
        </div>
     </div>
     <div className="photo">

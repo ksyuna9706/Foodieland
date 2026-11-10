@@ -6,6 +6,8 @@ import Main from "../main/Main";
 import Example from "../example/Example";
 import Blog from "../blog/Blog";
 import CheckOut from "../check/CheckOut";
+import Try from "../try/Try";
+import Form from "../../components/form/Form";
 
 function Home() {
     const [catalog, setCatalog] = useState([]);
@@ -29,6 +31,8 @@ function Home() {
             <Example />
             <Blog/>
             <CheckOut/>
+            <Try />
+            <Form />
         </div>
     )
 }

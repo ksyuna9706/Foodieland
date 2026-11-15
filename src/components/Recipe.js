@@ -13,7 +13,7 @@ function Recipe() {
     }, [id]);
 
     const [recipe, setRecipe] = useState({});
-    // console.log(recipe);
+    
 
     const navigate = useNavigate();
     let goBack = () => navigate(-1);

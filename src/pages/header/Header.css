@@ -1,6 +1,8 @@
 .header{
 color: rgb(60, 12, 12);
     padding: 20px;
+    margin-bottom: 40px;
+  
 }
 .header .wrap{
     display: flex;

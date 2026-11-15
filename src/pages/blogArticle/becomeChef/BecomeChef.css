@@ -1,0 +1,26 @@
+.become-chef h1{
+    color: rgba(0, 0, 0, 1);
+
+font-family: "Inter";
+font-style: Semi Bold;
+font-size: 64px;
+font-weight: 600;
+line-height: 77px;
+letter-spacing: -4%;
+text-align: center;
+}
+
+.quote{
+     background: linear-gradient(90.00deg, rgba(0, 0, 0, 0.05) 0%,rgba(0, 0, 0, 0) 100%);
+     color: rgba(0, 0, 0, 1);
+
+font-family: "Inter";
+font-style: Medium Italic;
+font-size: 36px;
+font-weight: 500;
+line-height: 64px;
+letter-spacing: -4%;
+text-align: left;
+padding: 40px;
+font-style: italic;
+}

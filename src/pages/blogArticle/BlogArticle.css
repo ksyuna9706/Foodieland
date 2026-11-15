@@ -1,0 +1,64 @@
+.food{
+margin-right: 40px;
+}
+
+
+.food-article{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    
+}
+.food-block-recipes{
+    display: flex;
+    margin-bottom: 50px;
+}
+.food-block-recipes-info{
+    box-sizing: border-box;
+    width: 510px;
+    
+}
+
+.food-block-recipes a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+text-align: start;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.food-block-recipes-info p{
+color: rgba(0, 0, 0, 0.6);
+
+font-family: "Inter";
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+margin-left: 40px;
+}
+.food-tasty-recipes{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.food-tasty-recipes h1{
+margin: 0;
+padding: 0;
+text-align: start;
+}
+.food-tasty-recipes-block{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+
+
+.food-tasty-recipes-block img{
+    width: 180px;
+}

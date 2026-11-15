@@ -8,8 +8,7 @@
 .main{
     display: flex;
     flex-direction: row;
-    max-width: 1282px;
-    margin: 0 auto;
+   margin-left: 80px;
     height: 640px;
  
 }

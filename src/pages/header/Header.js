@@ -11,6 +11,7 @@ function Header() {
             <div className="right">
                 <ul>
                     
+                     <li><Link to="/recipes">Recipes</Link></li>
                      <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/contacts">Contacts</Link></li>
@@ -20,9 +21,10 @@ function Header() {
                 <Link to="/contacts"><img src={tw} alt="" /></Link>
                 <Link to="/contacts"><img src={inst} alt="" /></Link>   
                 </div>
-                
-            </div>
-        </div>
+                 </div>
+           
+        </div> 
+        <hr  className='wrap' style={{marginTop:'45px'}}/>
     </div>
 }
 

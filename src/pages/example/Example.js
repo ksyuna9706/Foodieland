@@ -9,7 +9,7 @@ import meatballs from './meatballs.webp';
 import orange from './orangePancake.webp';
 import chicken from './chiken.webp';
 import pasta from './pasta.webp';
-import health from './Mask Group.webp'
+import health from './health.webp'
 import food from './01.webp';
 
 function Example() {
@@ -50,9 +50,7 @@ function Example() {
                         <div className="ch"><img src={kn} alt="" />Snack</div>
                     </div>
                    <div className="health">
-                    <p>Don't forget to eat healthy food</p>
-                    <img src={food} alt="" />
-                    <p>www.foodieland.com</p>
+                    <img src={health} alt="" />
 
                    </div>
                     <div className="blockExample">

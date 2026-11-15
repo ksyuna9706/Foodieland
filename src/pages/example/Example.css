@@ -1,7 +1,7 @@
 .example{
     display: flex;
     flex-direction: row;
-   
+   margin-left: 80px;
 }
 
 
@@ -38,5 +38,5 @@ flex-direction: row;
 flex-wrap: wrap;
 }
 .health{
-    background: url("./Mask\ Group.webp");
+  border-radius: 5px;
 }

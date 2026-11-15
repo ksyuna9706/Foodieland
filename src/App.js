@@ -6,7 +6,11 @@ import Contacts from "./pages/main/Contacts";
 import NotFound from "./pages/main/NotFound";
 import Category from "./pages/main/Category";
 import Recipe from "./components/Recipe";
-
+import RecipePage from "./pages/recipePage/RecipePage";
+import BlogArticle from "./pages/blogArticle/BlogArticle";
+import CrochetPage from "./pages/blogArticle/CrocketPage/CrochetPage";
+import VegRecipes from "./pages/blogArticle/VegRec/VegRecipes";
+import BecomeChef from "./pages/blogArticle/becomeChef/BecomeChef";
 
 function App() {
   const text = {
@@ -23,13 +27,20 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About text={text} />} />
           <Route path="contacts" element={<Contacts />} />
-       
-        <Route path="category/:name" element={<Category />} />
-        <Route path="meal/:id" element={<Recipe />} />
-        {/* <Route path="recipes" element={<Recipe />} /> */}
+          <Route path="blog" element={<BlogArticle />} />
+          <Route path="recipes" element={<RecipePage />} />
+          <Route path="Crochet" element={<CrochetPage />} />
+          <Route path="VegRec" element={<VegRecipes />} />
+          <Route path="/Chef" element={<BecomeChef />} />
+
+     
+
+          <Route path="category/:name" element={<Category />} />
+          <Route path="meal/:id" element={<Recipe />} />
       
-        <Route path="*" element={<NotFound />} />
-</Route>
+
+          <Route path="*" element={<NotFound />} />
+        </Route>
       </Routes>
 
     </>

@@ -5,7 +5,7 @@ function CategoryList({catalog=[]}){
     return(
         <div className="list wrap">
           <div className="cL"> 
-            <h1>Categories</h1>
+            <h1 style={{fontSize:"50px",textAlign:'left',marginLeft:'80px'}}>Categories</h1>
             </div> 
             <div className="cI">
                 {

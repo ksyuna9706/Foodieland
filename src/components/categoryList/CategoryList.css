@@ -1,18 +1,19 @@
-.list{
+.list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: column;
     margin: 0 auto;
-    
+
 }
-.cL{
+
+.cL {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.cI{
+
+.cI {
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
- 
+    margin-left: 80px;
 }

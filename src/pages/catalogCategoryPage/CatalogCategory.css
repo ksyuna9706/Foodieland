@@ -1,0 +1,32 @@
+.catalog img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.catalog{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.catalogInfo p{
+    display: block;
+    
+}
+.catalogInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.catalogInfo a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+
+font-family: "Inter";
+font-style: Semi Bold;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: -2%;
+border-radius: 16px;
+background: rgba(231, 250, 254, 1);
+padding: 27px 21px;
+}
